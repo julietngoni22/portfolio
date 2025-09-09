@@ -68,9 +68,6 @@ Customize colors and fonts in `style.css`:
 ## Deployment Options
 
 - **GitHub Pages**: Free hosting for static sites
-- **Netlify**: Easy deployment with continuous integration
-- **Vercel**: Fast deployment with excellent performance
-- **AWS S3**: Scalable cloud hosting
 
 ## Browser Support
 
