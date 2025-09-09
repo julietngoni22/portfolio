@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juliet Ngoni - CV</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #333; background: #f8f9fa; }
+        .cv-container { max-width: 800px; margin: 20px auto; background: white; padding: 40px; box-shadow: 0 0 20px rgba(0,0,0,0.1); }
+        .header { text-align: center; border-bottom: 3px solid #6366f1; padding-bottom: 20px; margin-bottom: 30px; }
+        .header h1 { color: #6366f1; font-size: 2.5em; margin-bottom: 10px; }
+        .header h2 { color: #666; font-size: 1.2em; margin-bottom: 15px; }
+        .contact-info { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; }
+        .contact-info span { color: #666; }
+        .section { margin-bottom: 30px; }
+        .section h3 { color: #6366f1; font-size: 1.4em; border-bottom: 2px solid #6366f1; padding-bottom: 5px; margin-bottom: 15px; }
+        .experience-item, .education-item, .cert-item { margin-bottom: 20px; }
+        .experience-item h4, .education-item h4 { color: #333; font-size: 1.1em; }
+        .company, .institution { color: #666; font-style: italic; }
+        .date { color: #888; font-size: 0.9em; float: right; }
+        .experience-item ul { margin-left: 20px; margin-top: 10px; }
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+        .skill-category h4 { color: #6366f1; margin-bottom: 8px; }
+        .skill-category ul { list-style: none; }
+        .skill-category li { background: #f1f5f9; padding: 5px 10px; margin: 3px 0; border-radius: 15px; font-size: 0.9em; }
+        .cert-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; }
+        .cert-item { background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #6366f1; }
+        .cert-item h4 { color: #333; margin-bottom: 5px; }
+        .cert-issuer { color: #6366f1; font-weight: bold; }
+        .cert-id { color: #888; font-size: 0.8em; }
+        @media print { body { background: white; } .cv-container { box-shadow: none; margin: 0; } }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <div class="header">
+            <h1>Juliet Ngoni</h1>
+            <h2>Security Engineer & Cloud Specialist</h2>
+            <div class="contact-info">
+                <span>📧 julietngonipro@gmail.com</span>
+                <span>📱 +27 720910489</span>
+                <span>📍 Pretoria, South Africa</span>
+                <span>💼 LinkedIn: juliet-n-03682a237</span>
+                <span>🔗 GitHub: julietngoni22</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>Professional Summary</h3>
+            <p>I am a focused, results-driven engineer with a strong foundation in cloud computing, networking, and security. I specialize in designing and implementing scalable, high-performance solutions using modern cloud, security and networking technologies. With expertise in cloud infrastructure, network security, and best practices for application deployment, I'm driven to solve complex challenges and shape the future of technology with innovation and precision.</p>
+        </div>
+
+        <div class="section">
+            <h3>Education</h3>
+            <div class="education-item">
+                <h4>Bachelor in Information Technology</h4>
+                <div class="institution">Tshwane University of Technology</div>
+                <div class="date">January 2025 - Present</div>
+                <p>Pretoria, South Africa</p>
+            </div>
+            <div class="education-item">
+                <h4>Diploma in Information Technology</h4>
+                <div class="institution">Tshwane University of Technology</div>
+                <div class="date">January 2020 - December 2023</div>
+                <p>Pretoria, South Africa</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>Work Experience</h3>
+            <div class="experience-item">
+                <h4>Cloud Support Associate</h4>
+                <div class="company">Amazon Web Services (AWS)</div>
+                <div class="date">Feb 2025 - Aug 2025</div>
+                <p>Cape Town, South Africa</p>
+                <p>Resolved customer cases on networking, security, and Linux administration</p>
+                <ul>
+                    <li>Resolved customer cases on networking (EC2, VPCs, subnets, load balancing, Elastic IPs)</li>
+                    <li>Handled security issues (IAM roles, KMS, Route 53)</li>
+                    <li>Provided Linux admin support (user access, SSH, troubleshooting)</li>
+                    <li>Utilized serverless services like Lambda and API Gateway for projects</li>
+                    <li>Integrated AWS services such as Boto3 with external environments like Visual Studio Code</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h4>Cyber Security Analyst</h4>
+                <div class="company">Risc Technology Integration</div>
+                <div class="date">Jul 2024 - Jan 2025</div>
+                <p>Rivonia, South Africa</p>
+                <p>Conducted security assessments and vulnerability management</p>
+                <ul>
+                    <li>Scanning for vulnerabilities and conducting risk assessments</li>
+                    <li>Identifying potential weaknesses in systems and networks</li>
+                    <li>Enforcing security policies and standards to ensure compliance</li>
+                    <li>Writing detailed security reports</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h4>Technical Support Intern</h4>
+                <div class="company">Gijima Holdings</div>
+                <div class="date">May 2023 - Apr 2024</div>
+                <p>Midrand, South Africa</p>
+                <p>Provided technical support and managed IT infrastructure</p>
+                <ul>
+                    <li>Attended calls and assisted users with technical issues</li>
+                    <li>Managed access and network resources using Active Directory</li>
+                    <li>Setup devices and added users as admin in Windows operating system</li>
+                    <li>Added devices to domain and changed hostnames</li>
+                    <li>Used commands such as ping, ipconfig, ipconfig /all and Net use to map drives</li>
+                    <li>Created LAN cables using wired cable and RJ-45 connectors</li>
+                    <li>Connected users to printers and telephones</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>Technical Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Programming & Development</h4>
+                    <ul>
+                        <li>Java (Spring Framework, Maven)</li>
+                        <li>JavaScript (ES6+, DOM Manipulation)</li>
+                        <li>Python (Boto3, Scripting)</li>
+                        <li>MySQL (Database Design, Queries)</li>
+                        <li>Derby Database (Embedded Systems)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>Networking & Infrastructure</h4>
+                    <ul>
+                        <li>Cisco Routing & Switching</li>
+                        <li>HTTP/HTTPS Protocols</li>
+                        <li>DHCP Configuration</li>
+                        <li>DNS Management</li>
+                        <li>NAT/PAT, VPN Tunneling</li>
+                        <li>OSPF Routing, HSRP Redundancy</li>
+                        <li>VLAN Segmentation, WLAN Security</li>
+                        <li>TCP/UDP Analysis</li>
+                        <li>Active Directory Administration</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>Cybersecurity & Systems</h4>
+                    <ul>
+                        <li>Social Engineering Awareness</li>
+                        <li>Cryptographic Protocols</li>
+                        <li>Penetration Testing (Kali Linux)</li>
+                        <li>Brute-Force Attack Prevention</li>
+                        <li>Firewall Configuration</li>
+                        <li>IDS/IPS Implementation</li>
+                        <li>VMware vSphere</li>
+                        <li>Windows Server Administration</li>
+                        <li>Linux System Management (Ubuntu, Kali)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>Cloud Platforms & Services</h4>
+                    <ul>
+                        <li>AWS (EC2, S3, VPC, IAM, Lambda, RDS, Route 53)</li>
+                        <li>Azure Security Center</li>
+                        <li>Azure Active Directory</li>
+                        <li>Microsoft 365 Administration</li>
+                        <li>Cloud Infrastructure Design</li>
+                        <li>Identity Access Management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>Certifications & Awards</h3>
+            <div class="cert-grid">
+                <div class="cert-item">
+                    <h4>AWS Solutions Architect - Associate</h4>
+                    <div class="cert-issuer">Amazon Web Services</div>
+                    <div class="date">Valid until July 2028</div>
+                    <div class="cert-id">ID: 59577a3a-12f0-418a-b4e9-4982ea13dbbf</div>
+                </div>
+                <div class="cert-item">
+                    <h4>AWS AI Practitioner</h4>
+                    <div class="cert-issuer">Amazon Web Services</div>
+                    <div class="date">Valid until August 2028</div>
+                    <div class="cert-id">ID: cdb0120b-6a10-4b33-afa7-4cd2220568b8</div>
+                </div>
+                <div class="cert-item">
+                    <h4>Azure Security Engineer Associate</h4>
+                    <div class="cert-issuer">Microsoft</div>
+                    <div class="date">Valid until October 2026</div>
+                    <div class="cert-id">ID: A805C47122C1AC0C</div>
+                </div>
+                <div class="cert-item">
+                    <h4>Azure Fundamentals (AZ-900)</h4>
+                    <div class="cert-issuer">Microsoft</div>
+                    <div class="date">Achieved September 2023</div>
+                    <div class="cert-id">ID: E08480E6E84D5B91</div>
+                </div>
+                <div class="cert-item">
+                    <h4>Azure AI Fundamentals</h4>
+                    <div class="cert-issuer">Microsoft</div>
+                    <div class="date">Achieved June 2024</div>
+                    <div class="cert-id">ID: F14CE71FD4A9BE82</div>
+                </div>
+                <div class="cert-item">
+                    <h4>Microsoft 365 Fundamentals</h4>
+                    <div class="cert-issuer">Microsoft</div>
+                    <div class="date">Achieved March 2024</div>
+                    <div class="cert-id">ID: 4FEDC3A320490FDF</div>
+                </div>
+                <div class="cert-item">
+                    <h4>Cyber Security Awareness Professional</h4>
+                    <div class="cert-issuer">CertiProfile</div>
+                    <div class="date">Achieved September 2024</div>
+                    <div class="cert-id">ID: 56a3b63f</div>
+                </div>
+                <div class="cert-item">
+                    <h4>Huawei Excellent Student</h4>
+                    <div class="cert-issuer">Huawei (Cloud Track)</div>
+                    <div class="date">February 2023</div>
+                    <div class="cert-id">Achievement Award</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>Key Statistics</h3>
+            <ul>
+                <li><strong>7 Professional Certifications</strong> - AWS, Azure, and Security focused</li>
+                <li><strong>2+ Years Experience</strong> - Cloud computing and security</li>
+                <li><strong>3 Cloud Platforms</strong> - AWS, Azure, and hybrid solutions</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
