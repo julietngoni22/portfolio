@@ -65,7 +65,7 @@ Customize colors and fonts in `style.css`:
 3. Customize the content with your information
 4. Deploy to your preferred hosting platform
 
-## Deployment Options
+## Deployment 
 
 - **GitHub Pages**: Free hosting for static sites
 
